@@ -1,0 +1,10 @@
+PING 10.51.1.253 (10.51.1.253): 56 data bytes
+Request timeout for icmp_seq 0
+Request timeout for icmp_seq 1
+Request timeout for icmp_seq 2
+Request timeout for icmp_seq 3
+Request timeout for icmp_seq 4
+Request timeout for icmp_seq 5
+
+--- 10.51.1.253 ping statistics ---
+7 packets transmitted, 0 packets received, 100.0% packet loss

@@ -1,0 +1,6 @@
+First we need to enable IP forwarding by editing the file located in 'etc/sysctl.conf'.
+And then ensure that the line net.ipv4.ip_forward = 1 is there and not commented out.
+Then execute this command:
+
+iptables -t nat -A OUTPUT -d [ipaddress1] -j DNAT --to-destination [ipaddress2]
+
